@@ -7,7 +7,7 @@ class Display extends React.Component {
     render(){
         return(
             <>
-                <p>{this.props.course}: {this.props.name}</p>
+                <p>{this.props.course} {this.props.name}</p>
             </>
         )
     }
