@@ -4,7 +4,7 @@ import * as Yup from 'yup';
 import axios from 'axios';
 import Display from './Display'
 
-const RegistrationForm = ({ errors, touched, values, status }) => {
+const RegistrationForm = ({ errors, touched}) => {
     const [users, setUsers] = useState()
     console.log(users)
 
