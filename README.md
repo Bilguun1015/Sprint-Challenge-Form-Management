@@ -25,15 +25,15 @@ In the challenge for this Sprint, you will demonstrate proficiency by creating a
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What are the required parts of class components?
-
+    class extends React.Component, this.state, and no need of const when declaring function
 - [ ] Name at least three lifecycle methods?
-
+    componentDidMount, componentDidUpdate, ComponentWillMount
 - [ ] Why are forms used so often in web applications and software?
-
+    Forms are the most common way to get data from users.
 - [ ] What advantages are there by using a forms library like Formik?
-
+    Using Formik extends forms with built in properties; therefore, no need to write forms with functions over and over.
 - [ ] Why do we write tests for our apps?
-
+    Test Driven Development makes the developing process much easier to debug and update our code.
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
